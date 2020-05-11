@@ -30,4 +30,9 @@ n-1 + n-2 + ..... + 1 = ((n - 1) * n) / 2 = O(n^2)
 Space complexity: O(1) 
 We only need constant memory to store few local variables, so the space complexity is O(1)O(1).
 
-Approach 2: Dynamic Programming
+Approach 2: Avoid inner loop by keeping track of current max and current min for each element in the array. This is a variation of Kadane's algorithm ( maximum subarray sum problem ). 
+
+Time complexity: O(n)
+
+Space complexity: O(1) 
+
