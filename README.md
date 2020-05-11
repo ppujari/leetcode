@@ -42,7 +42,7 @@ Approach 1: Brute force approach is to split the array into all possible subarra
 
 ### Complexity Analysis
 
-Time complexity: n requires O(n^2)O(n^2)
+Time complexity: requires O(n^2)
 
 
 Space complexity: O(1) 
