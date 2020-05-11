@@ -42,7 +42,8 @@ Approach 1: Brute force approach is to split the array into all possible subarra
 
 ### Complexity Analysis
 
-Time complexity: 
+Time complexity: n requires O(n^2)O(n^2)
+
 
 Space complexity: O(1) 
 We only need constant memory to store few local variables, so the space complexity is O(1)O(1).
